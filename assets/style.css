@@ -1,11 +1,13 @@
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  color: #fff;
-  background: url('assets/cross-bg.jpg') center center / cover no-repeat fixed;
-  position: relative;
-  z-index: 1;
-}
+ body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://i.ibb.co/DD2gck8w/cross-bg.jpg'); /* Replace with your own */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+    }
 
 body::before {
   content: "";
@@ -14,7 +16,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
